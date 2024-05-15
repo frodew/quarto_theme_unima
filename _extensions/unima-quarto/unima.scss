@@ -138,16 +138,24 @@ $body-color: #000000;
 $black: #000000;
 $white: #ffffff;
 $ma-blue: #232e58;
+$ma-lightblue: #ebedf7;
 
 /*-- scss:rules --*/
 
-.reveal p a,
-#refs a {
+a {
   color: $ma-blue;
   font-weight: 300;
   border-bottom: 2px solid lightgray;
 }
 
+.quarto-title-author-name a,
+.slide-menu-button a,
+.slide-number a,
+.code-with-filename a {
+  color: $black;
+  font-weight: 300;
+  border-bottom: none;
+}
 .reveal .footer {
   border-top: 2px solid $ma-blue;
   padding-top: 16px;
@@ -284,21 +292,21 @@ h2::after.title {
 // inline
 .reveal code {
   font-size: 70%;
-  background-color: #afb8c133;
+  background-color: $ma-lightblue;
   color: #000;
-  padding: 4px;
-  border-radius: 6px;
+  padding: 0 3px;
+  border-radius: 4px;
 }
 
 // code blocks
-.reveal div.sourceCode pre code {
-  font-size: 100%;
-}
-
-// code output
 .reveal pre code {
   font-size: 100%;
-  padding-top: 15px;
+  border-left: 4px solid $ma-blue;
+  border-radius: 3px;
+}
+
+.code-with-filename-file pre {
+  background-color: #e2e2e2;
 }
 
 .colored-column {
@@ -309,13 +317,10 @@ h2::after.title {
 }
 
 .column {
-  // #column;
-  // border: 2px solid red;
   border-radius: 10px !important;
   padding: 10px;
   margin: 5px;
-  // background-color: #ededed;
-  background-color: #eeeeee;
+  background-color: $ma-lightblue;
 }
 
 .small-font {
