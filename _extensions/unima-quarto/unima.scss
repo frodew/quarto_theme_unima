@@ -142,7 +142,7 @@ $ma-blue: #232e58;
 /*-- scss:rules --*/
 
 .reveal p a,
-#references a {
+#refs a {
   color: $ma-blue;
   font-weight: 300;
   border-bottom: 2px solid lightgray;
@@ -262,7 +262,7 @@ h1::after,
   background-color: $ma-blue;
   color: $ma-blue;
   height: 3px;
-  margin: 2px 0 10px 0;
+  margin: 2px 0 30px 0;
 }
 
 // Override h1 style for title slide (remove section break slide style)
@@ -278,7 +278,7 @@ h1.title::after {
 }
 
 h2::after.title {
-  margin: 10px 15px 35px 0;
+  margin: 10px 0 35px 0;
 }
 
 // inline
@@ -350,7 +350,7 @@ iframe {
 // additional custom css
 
 .cite {
-  font-size: 0.7em;
+  font-size: 0.6em;
 }
 
 .v-center {
