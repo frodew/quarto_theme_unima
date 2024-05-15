@@ -11,7 +11,7 @@ Go to the folder you want to have your presentation in and execute this command.
 
 ```bash
 
-quarto use template <github-organization>/<%= filesafename %>
+quarto use template git@github.com:FriederRodewald/quarto_theme_unima.git
 
 ```
 
