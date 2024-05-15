@@ -22,6 +22,16 @@ This will install the extension and create `template.qmd` that you can use as a 
 I applied some basic formatting in the `unima.scss` file.
 The basic functionality is spelled out in the `template.qmd`.
 
+## Print as PDF
+
+You can print the HTML slides as a PDF with `decktape`, as described [here](https://gongcastro.github.io/blog/revaljs-to-pdf/revealjs-to-pdf.html).
+
+```bash
+
+decktape reveal <url of your quarto preview, e.g., `http://localhost:42`> <name of the desired pdf, e.g., `presentation.pdf`>
+
+```
+
 ## Example
 
 At a later stage, I will include example screenshots here.
