@@ -11,7 +11,7 @@ author:
       affiliations: University of Mannheim
 date: today
 date-format:
-# bibliography: references.bib
+# bibliography: references.bib --- ADD YOUR ZOTERO BIBLIOGRAPHY HERE
 execute:
   eval: false
   echo: true
@@ -90,9 +90,28 @@ Some centered content here.
 
 :::
 ```
+---
+
+- And here is a nice fact with a cool comment [[@some_author]]{.cite}.
 
 ## More Information
 
 - If you have further questions feel free to to check out the [quarto documentation](https://quarto.org/docs/presentations/revealjs/), specifically [revealjs](https://quarto.org/docs/presentations/revealjs/advanced.html).
 - The [quarto-cli community](https://github.com/quarto-dev/quarto-cli) has also already answered the questions you might have in an issue or disussion!
 - And if that does not help, you could submit an issue here and maybe I can help you out.
+
+## Literature {.smallest}
+
+The bibliography will be displayed here.
+
+Some author and their book/paper.
+
+Another author and their stuff.
+
+Another author and their stuff.
+
+Another author and their stuff.
+
+Another author and their stuff.
+
+The list goes on.
