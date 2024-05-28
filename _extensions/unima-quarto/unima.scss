@@ -139,6 +139,7 @@ $black: #000000;
 $white: #ffffff;
 $ma-blue: #232e58;
 $ma-lightblue: #ebedf7;
+$ma-grey: #a7abbc;
 
 /*-- scss:rules --*/
 
@@ -350,6 +351,9 @@ iframe {
 
 .reveal .progress {
   color: $ma-blue;
+  background-color: $ma-grey;
+  bottom: 60px;
+  height: 3px;
 }
 
 // additional custom css
@@ -362,4 +366,9 @@ iframe {
   display: flex;
   align-items: center;
   height: 90%;
+}
+
+.smallest #refs {
+  font-size: 0.8em;
+  line-height: 1.5em;
 }

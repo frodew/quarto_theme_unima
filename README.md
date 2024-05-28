@@ -21,6 +21,7 @@ This will install the extension and create `template.qmd` that you can use as a 
 
 I applied some basic formatting in the `unima.scss` file.
 The basic functionality is spelled out in the `template.qmd`.
+This template comes with locally available fonts `Sora` as the default sans-serif and `JetBrains Mono` as for monospace.
 
 ## Print as PDF
 
@@ -31,6 +32,8 @@ You can print the HTML slides as a PDF with `decktape`, as described [here](http
 decktape reveal <url of your quarto preview, e.g., `http://localhost:42`> <name of the desired pdf, e.g., `presentation.pdf`>
 
 ```
+
+If you want to export each animation/fragment-step as an extra slide you can include `/?fragments=true` in your URL, e.g., add that to your localhost url (`http://localhost:5888/?fragments=true`) and press ENTER.
 
 ## Example
 
