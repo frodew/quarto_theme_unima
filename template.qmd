@@ -81,7 +81,6 @@ format:
 - This is a basic slide, starting with a `##` title.
 - You can wrap citations `[@some_author]` in another pair of brackets and add cite-class `[[@some_author]]{.cite}` to make the citations smaller.
 - If you want single slides with little content, you can do that in a code-block and a v-center-class to center the content.
-- If you have some citations in your slides, add the `{.smallest}` class to your literature slide and the bibliography should be displayed without any overflow.
 
 ```{.q code-line-numbers="3" filename="template.qmd"}
 ::: {.v-center}
@@ -92,6 +91,7 @@ Some centered content here.
 ```
 ---
 
+- If you have some citations in your slides, add the `{.smallest}` class to your literature slide and the bibliography should be displayed without any overflow.
 - And here is a nice fact with a cool comment [[@some_author]]{.cite}.
 
 ## More Information
@@ -102,16 +102,10 @@ Some centered content here.
 
 ## Literature {.smallest}
 
+This only gets small if there are citations here...
+
 The bibliography will be displayed here.
 
 Some author and their book/paper.
-
-Another author and their stuff.
-
-Another author and their stuff.
-
-Another author and their stuff.
-
-Another author and their stuff.
 
 The list goes on.
