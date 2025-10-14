@@ -50,10 +50,10 @@ decktape reveal "http://localhost:42?showNotes=true" presentation_notes.pdf
 
 ## Example
 
-You can find an exported example PDF in this repo: `template.pdf`.
+You can find an exported example PDF in this repo's `template_example` folder: `template_example/template.pdf`.
 
-The first two pages looks like this:
+The first two pages of the template look like this:
 
-![](template_page1.png)
-![](template_page2.png)
+![](template_example/template_page1.png)
+![](template_example/template_page2.png)
 
