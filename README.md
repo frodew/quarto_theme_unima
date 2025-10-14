@@ -44,10 +44,16 @@ I like to use that default to export my pdf-presentation and my notes:
 
 decktape reveal "http://localhost:42" --fragments=true --progress=true presentation.pdf
 
-decktape reveal "http://localhost:42?showNotes=true"" presentation_notes.pdf
+decktape reveal "http://localhost:42?showNotes=true" presentation_notes.pdf
 
 ```
 
 ## Example
 
-At a later stage, I will include example screenshots here.
+You can find an exported example PDF in this repo: `template.pdf`.
+
+The first two pages looks like this:
+
+![](template_page1.png)
+![](template_page2.png)
+
