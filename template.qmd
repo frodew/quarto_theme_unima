@@ -10,7 +10,7 @@ author:
       orcid: 0000-0000-0000-0000
       affiliations: University of Mannheim
 date: today
-date-format:
+date-format: long
 # bibliography: references.bib --- ADD YOUR ZOTERO BIBLIOGRAPHY HERE
 execute:
   eval: false
@@ -97,7 +97,7 @@ Some centered content here.
 ## More Information
 
 - If you have further questions feel free to to check out the [quarto documentation](https://quarto.org/docs/presentations/revealjs/), specifically [revealjs](https://quarto.org/docs/presentations/revealjs/advanced.html).
-- The [quarto-cli community](https://github.com/quarto-dev/quarto-cli) has also already answered the questions you might have in an issue or disussion!
+- The [quarto-cli community](https://github.com/quarto-dev/quarto-cli) has also already answered the questions you might have in an issue or discussion! For example, check out how to add [fontawesome icons](https://github.com/quarto-ext/fontawesome) to your quarto slides.
 - And if that does not help, you could submit an issue here and maybe I can help you out.
 
 ## Literature {.smallest}

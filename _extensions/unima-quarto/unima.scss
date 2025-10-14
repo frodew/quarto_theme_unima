@@ -177,7 +177,7 @@ a {
 // Slide numbers to the bottom-right next to logo
 .slide-number,
 .reveal.has-logo .slide-number {
-  bottom: 13px !important;
+  bottom: 11px !important;
   right: 150px !important;
   top: unset !important;
   background-color: $white !important;
@@ -187,7 +187,7 @@ a {
 
 .reveal .slide-number a {
   font-size: 1.2em;
-  padding-right: 5px;
+  padding: 5px 5px 0 0;
   border-right: 2px solid black;
 }
 
@@ -203,6 +203,10 @@ a {
 // maximum height of code blocks before scrolling is used
 .reveal pre.sourceCode code {
   max-height: 700px; // default 500
+}
+
+.reveal .slide {
+  padding: 10px;
 }
 
 // title slide
@@ -222,8 +226,7 @@ p.subtitle {
   text-shadow: none;
   font-weight: 200;
   font-size: 30px;
-  text-align: left;
-  margin-left: 15px;
+  text-align: right;
 }
 
 .reveal .quarto-title-block .quarto-title-authors {
@@ -258,7 +261,7 @@ p.subtitle:after {
   background-color: $ma-blue;
   color: $ma-blue;
   height: 3px;
-  margin: 25px 0 25px;
+  margin: 5px 0 25px;
 }
 
 // Section break slide
@@ -354,6 +357,15 @@ iframe {
   background-color: $ma-grey;
   bottom: 60px;
   height: 3px;
+}
+
+.reveal.show-notes {
+  width: 40% !important;
+}
+
+.reveal .speaker-notes {
+  width: 150% !important;
+  font-size: 20px !important;
 }
 
 // additional custom css

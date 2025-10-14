@@ -11,7 +11,7 @@ Go to the folder you want to have your presentation in and execute this command.
 
 ```bash
 
-quarto use template FriederRodewald/quarto_theme_unima
+quarto use template frodew/quarto_theme_unima
 
 ```
 
@@ -29,11 +29,24 @@ You can print the HTML slides as a PDF with `decktape`, as described [here](http
 
 ```bash
 
-decktape reveal <url of your quarto preview, e.g., `http://localhost:42`> <name of the desired pdf, e.g., `presentation.pdf`>
+decktape reveal <url of your quarto preview, e.g., `"http://localhost:42"`> <name of the desired pdf, e.g., `presentation.pdf`>
 
 ```
 
-If you want to export each animation/fragment-step as an extra slide you can include `/?fragments=true` in your URL, e.g., add that to your localhost url (`http://localhost:5888/?fragments=true`) and press ENTER.
+If you want to export each animation/fragment-step as an extra slide you can include `--fragments=true` in your export command.
+To export your progress bar, add `--progress=true`.
+
+If you want to export your notes, you can do that by adding `?showNotes=true` to your URL, for example `"http://localhost:42?showNotes=true"`.
+
+I like to use that default to export my pdf-presentation and my notes:
+
+```bash
+
+decktape reveal "http://localhost:42" --fragments=true --progress=true presentation.pdf
+
+decktape reveal "http://localhost:42?showNotes=true"" presentation_notes.pdf
+
+```
 
 ## Example
 
