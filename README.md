@@ -48,6 +48,8 @@ decktape reveal "http://localhost:42?showNotes=true" presentation_notes.pdf
 
 ```
 
+NOTE: If specify that your quarto project is a `website`, maybe in your `quarto.yml`, then you have to change the font-path as descibed at the top in`_extensions/frodew/unima-quarto/unima.scss`.
+
 ## Example
 
 You can find an exported example PDF in this repo's `template_example` folder: `template_example/template.pdf`.
@@ -56,4 +58,3 @@ The first two pages of the template look like this:
 
 ![](template_example/template_page1.png)
 ![](template_example/template_page2.png)
-
